@@ -2,8 +2,6 @@ package Rodrigo.Problema31;
 
 public class OperacionesArregloBidimencional {
 
-    /*
-
     public static double sumaPorRenglon(double [][] matriz) {
         return sumaPorRenglon(matriz, 0, 0);
     }
@@ -34,9 +32,6 @@ public class OperacionesArregloBidimencional {
                 return a[auxF][auxC] + sumaPorColumna(a, auxF + 1, auxC);
         }
     }
-
-     */
-
 
     public static String toString(double [][] matriz) {
         StringBuilder sb = new StringBuilder("[");
